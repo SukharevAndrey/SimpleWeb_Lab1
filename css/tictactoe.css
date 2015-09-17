@@ -1,0 +1,23 @@
+.container {
+    margin: 25% auto;
+    width: 300px;
+}
+
+.cell {
+    border: 2px solid black;
+    float: left;
+    height: 96px;
+    width: 96px;
+}
+
+.cell:hover {
+    border-color: red;
+}
+
+.x {
+    background-image: url('../img/x.png');
+}
+
+.o {
+    background-image: url('../img/o.png');
+}
